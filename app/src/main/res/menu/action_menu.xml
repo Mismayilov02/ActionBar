@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/about"
-        android:icon="@drawable/identity"
         android:title="@string/about_me" />
 
 
     <item android:id="@+id/settings"
         android:title="@string/settings"
-        android:icon="@drawable/settings"/>
+       />
 
 
     <item
         android:id="@+id/privacy"
-        android:icon="@drawable/shield"
-        android:title="@string/privacy" />
+        android:title="@string/privacy"/>
+
+    <item android:title="@string/chats" />
 </menu>
